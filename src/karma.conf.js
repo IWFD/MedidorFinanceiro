@@ -13,7 +13,7 @@ module.exports = function (config) {
       clearContext: false 
     },
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, '../coverage/rmContador'),
+      dir: require('path').join(__dirname, '../coverage/impostometroIbirama'),
       reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
     },
